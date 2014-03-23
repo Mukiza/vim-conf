@@ -419,6 +419,11 @@ set nocompatible
         source $HOME/.vimrc.bundles
     endif
 
+    nnoremap <F5> :<C-U>make %:r && ./%:r<CR>
+  	let g:NERDTreeDirArrows=0
+    let NERDTreeIgnore = ['\.pyc$']
+
+
     let g:PyFlakeOnWrite = 1
     let g:PyFlakeCheckers = 'pep8,mccabe,pyflakes'
     let g:PyFlakeCWindow = 6 

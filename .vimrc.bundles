@@ -1,7 +1,3 @@
-    nnoremap <F5> :<C-U>make %:r && ./%:r<CR>
-	let g:NERDTreeDirArrows=0
-    let NERDTreeIgnore = ['\.pyc$']
-
    "Vundle 
    Bundle 'gmarik/vundle'
    Bundle 'vim-scripts/anttestreport'
