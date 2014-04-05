@@ -37,7 +37,6 @@
    Bundle 'L9'
    Bundle 'FuzzyFinder'
    Bundle 'scrooloose/nerdtree'
-   Bundle 'vim-scripts/VimClojure'
    Bundle 'altercation/vim-colors-solarized'
    
    "Python
