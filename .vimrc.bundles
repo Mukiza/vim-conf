@@ -26,7 +26,8 @@
    Bundle 'vadv/vim-chef'
    Bundle 'tpope/vim-rake'
    Bundle 'jgdavey/tslime.vim'
-   
+   Bundle 'henrik/vim-ruby-runner'
+
    "Haml & Html
    Bundle 'amirh/HTML-AutoCloseTag'
    Bundle 'othree/html5.vim'
@@ -54,6 +55,7 @@
    Bundle 'moll/vim-node'
    Bundle 'joestelmach/lint.vim'
    Bundle 'godlygeek/tabular'
+   Bundle "burnettk/vim-angular"
 
    Bundle 'chrisbra/SudoEdit.vim'
    Bundle 'ervandew/supertab'
@@ -75,28 +77,36 @@
    Bundle 'garbas/vim-snipmate'
    Bundle 'mhinz/vim-startify'
    Bundle 'scrooloose/syntastic'
-   Bundle 'majutsushi/tagbar'
    Bundle 'Rip-Rip/clang_complete'
    Bundle 'andviro/flake8-vim'
    Bundle 'vim-scripts/vim-cpp-enhanced-highlight'
    Bundle 'davidhalter/jedi-vim'
    Bundle 'phillipberndt/python-imports.vim'
    Bundle 'vim-scripts/vim-python-virtualenv'
-    
    Bundle 'rdolgushin/play.vim'
    Bundle 'vim-scripts/maven-ide'
    Bundle 'vim-scripts/vim-scala'
    Bundle 'vim-scripts/Scala-Java-Edit'
    Bundle 'vim-scripts/ctags.vim'
+   Bundle 'thinca/vim-quickrun'
 
    "Clojure
    Bundle 'tpope/vim-fireplace'
    Bundle 'tpope/vim-classpath'
    Bundle 'guns/vim-clojure-static'
+   Bundle 'kovisoft/slimv'
+   Bundle 'vim-scripts/VimClojure'
 
-   Bundle 'vim-scripts/Conque-Shell'
+   "Haskel
    Bundle 'vim-scripts/haskell.vim'
-   Bundle 'pbrisbin/html-template-syntax'
+   Bundle 'bitc/vim-hdevtools'
+   Bundle 'vim-scripts/Conque-Shell'
    Bundle 'vim-scripts/indenthaskell.vim'
+   Bundle 'Twinside/vim-hoogle'
+   Bundle 'vim-scripts/Haskell-Conceal'
+   Bundle 'Twinside/vim-haskellFold'
+   Bundle 'eagletmt/neco-ghc'
    Bundle 'vim-scripts/Haskell-Highlight-Enhanced'
+   Bundle 'ujihisa/repl.vim'
 
+   Bundle 'pbrisbin/html-template-syntax'

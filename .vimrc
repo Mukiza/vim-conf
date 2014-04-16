@@ -400,6 +400,7 @@ set nocompatible
     autocmd BufNewFile,BufRead *_spec.rb compiler rspec	
     autocmd BufNewFile,BufRead Gemfile set filetype=ruby
     autocmd BufNewFile,BufRead *.hiccup set filetype=clojure
+    autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
     autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
 
     " Syntastic - 
@@ -419,22 +420,24 @@ set nocompatible
         source $HOME/.vimrc.bundles
     endif
 
-    nnoremap <F5> :<C-U>make %:r && ./%:r<CR>
-  	let g:NERDTreeDirArrows=0
-    let NERDTreeIgnore = ['\.pyc$']
-
-
     let g:PyFlakeOnWrite = 1
     let g:PyFlakeCheckers = 'pep8,mccabe,pyflakes'
     let g:PyFlakeCWindow = 6 
     
     let g:vimclojure#HighlightBuiltins = 1
     let g:vimclojure#ParenRainbow = 1
+
+    autocmd FileType clojure nnoremap <silent><buffer> cpr :Require \| ClojureHighlightReferences<CR> 
+
+    map <F8> :w<CR> :!clear; make<CR> :!./%<<CR>
+
     nnoremap <C-e> :Eval<CR>
     nnoremap E :%Eval<CR> 
     nmap <F11> :TagbarToggle<CR>
     nmap <F2> :NERDTreeToggle<CR>
-    map <F8> :w<CR> :!clear; make<CR> :!./%<<CR>
+   "let g:NERDTreeDirArrows=0
+   let NERDTreeIgnore = ['\.pyc$']
+
    
     let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
     let mapleader="," 
