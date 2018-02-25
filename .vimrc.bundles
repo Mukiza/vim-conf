@@ -99,3 +99,7 @@
    Bundle 'ujihisa/repl.vim'
 
    Bundle 'pbrisbin/html-template-syntax'
+
+   "Php
+   Bundle 'StanAngeloff/php.vim'
+   Bundle 'blueyed/smarty.vim'
