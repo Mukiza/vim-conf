@@ -1,51 +1,81 @@
-   "General
-   Plug 'Lokaltog/vim-easymotion'
-   Plug 'junegunn/vim-easy-align'
-   Plug 'Rip-Rip/clang_complete'
-   Plug 'ervandew/supertab'
-   Plug 'tpope/vim-surround'
-   Plug 'tpope/vim-fugitive'
-   Plug 'tpope/vim-commentary'
-   Plug 'tomtom/tlib_vim'
-   Plug 'tpope/vim-markdown'
-   Plug 'majutsushi/tagbar'
-   Plug 'kien/ctrlp.vim'
-   Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-   Plug 'terryma/vim-expand-region'
-   Plug 'itchyny/lightline.vim'
-   Plug 'bling/vim-bufferline'
-   Plug 'scrooloose/nerdcommenter'
-   Plug 'honza/vim-snippets'
+"General
+Plug 'altercation/vim-colors-solarized'
+Plug 'andviro/flake8-vim'
+Plug 'bling/vim-bufferline'
+Plug 'chrisbra/SudoEdit.vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'ervandew/supertab'
+Plug 'honza/vim-snippets'
+Plug 'itchyny/lightline.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'majutsushi/tagbar'
+Plug 'mhinz/vim-startify'
+Plug 'Rip-Rip/clang_complete'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'terryma/vim-expand-region'
+Plug 'thinca/vim-quickrun'
+Plug 'tomtom/tlib_vim'
+Plug 'Townk/vim-autoclose'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-surround'
+Plug 'vim-scripts/ctags.vim'
 
-  "Ruby & Rails
-   Plug 'vim-ruby/vim-ruby'
-   Plug 'tpope/vim-rake'
-   Plug 'jgdavey/tslime.vim'
+"Ruby & Rails
+Plug 'vim-ruby/vim-ruby'
+Plug 'thoughtbot/vim-rspec'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-rake'
 
-   "Html
-   Plug 'othree/html5.vim'
-   Plug 'hail2u/vim-css3-syntax'
+"Haml & Html
+Plug 'othree/html5.vim'
+Plug 'bitfyre/vim-indent-html'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'tpope/vim-haml'
 
-   "Python
-   Plug 'davidhalter/jedi-vim'
-   Plug 'vim-scripts/vim-python-virtualenv'
-   Plug 'andviro/flake8-vim'
+"Python
+Plug 'klen/python-mode'
+Plug 'lambdalisue/vim-django-support'
+Plug 'vim-scripts/vim-python-virtualenv'
+Plug 'phillipberndt/python-imports.vim'
 
-   " JavaScript 
-   Plug 'pangloss/vim-javascript'
+" JavaScript
+Plug 'elzr/vim-json'
+Plug 'groenewege/vim-less'
+Plug 'pangloss/vim-javascript'
+Plug 'briancollins/vim-jst'
+Plug 'vim-scripts/node'
+Plug 'digitaltoad/vim-jade'
+Plug 'moll/vim-node'
+Plug 'joestelmach/lint.vim'
+Plug 'godlygeek/tabular'
 
-   "Clojure
-   Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+"Clojure
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-classpath'
+Plug 'guns/vim-clojure-static'
+Plug 'kovisoft/slimv'
+Plug 'vim-scripts/VimClojure'
 
-   "Haskel
-   Plug 'vim-scripts/haskell.vim'
-   Plug 'vim-scripts/indenthaskell.vim'
-   Plug 'Twinside/vim-hoogle'
-   Plug 'eagletmt/neco-ghc'
+"Haskel
+Plug 'vim-scripts/haskell.vim'
+Plug 'bitc/vim-hdevtools'
+Plug 'vim-scripts/Conque-Shell'
+Plug 'vim-scripts/indenthaskell.vim'
+Plug 'Twinside/vim-hoogle'
+Plug 'vim-scripts/Haskell-Conceal'
+Plug 'Twinside/vim-haskellFold'
+Plug 'eagletmt/neco-ghc'
+Plug 'vim-scripts/Haskell-Highlight-Enhanced'
+Plug 'ujihisa/repl.vim'
 
-   "Php
-   Plug 'StanAngeloff/php.vim'
-   Plug 'blueyed/smarty.vim'
+"Php
+Plug 'StanAngeloff/php.vim'
+Plug 'blueyed/smarty.vim'
 
-   "SML
-   Plug 'jez/vim-better-sml'
+"SML
+Plug 'jez/vim-better-sml'
