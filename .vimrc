@@ -382,6 +382,7 @@ let g:clang_user_options="-std=c++0x"
 " CtrlP - don't recalculate files on start (slow)
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_match_window = 'min:1,max:70,results=100'
 
 " TagBar
 let g:tagbar_left = 0

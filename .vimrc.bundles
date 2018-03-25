@@ -12,7 +12,6 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-startify'
 Plug 'Rip-Rip/clang_complete'
-Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'terryma/vim-expand-region'
@@ -23,6 +22,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-repeat'
 Plug 'vim-scripts/ctags.vim'
 
 "Ruby & Rails
@@ -32,7 +33,6 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rake'
 
 "Haml & Html
-Plug 'othree/html5.vim'
 Plug 'bitfyre/vim-indent-html'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-haml'
@@ -50,16 +50,15 @@ Plug 'pangloss/vim-javascript'
 Plug 'briancollins/vim-jst'
 Plug 'vim-scripts/node'
 Plug 'digitaltoad/vim-jade'
-Plug 'moll/vim-node'
 Plug 'joestelmach/lint.vim'
 Plug 'godlygeek/tabular'
 
 "Clojure
-Plug 'tpope/vim-fireplace'
-Plug 'tpope/vim-classpath'
-Plug 'guns/vim-clojure-static'
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'tpope/vim-classpath', { 'for': 'clojure'}
+Plug 'vim-scripts/VimClojure', { 'for': 'clojure'}
+Plug 'kovisoft/paredit', { 'for': ['clojure', 'scheme'] }
 Plug 'kovisoft/slimv'
-Plug 'vim-scripts/VimClojure'
 
 "Haskel
 Plug 'vim-scripts/haskell.vim'
@@ -77,5 +76,8 @@ Plug 'ujihisa/repl.vim'
 Plug 'StanAngeloff/php.vim'
 Plug 'blueyed/smarty.vim'
 
-"SML
-Plug 'jez/vim-better-sml'
+"Go Lang
+Plug 'fatih/vim-go'
+
+"Terraform
+Plug 'hashivim/vim-terraform'
