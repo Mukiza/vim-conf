@@ -1,22 +1,17 @@
 "General
-Plug 'altercation/vim-colors-solarized'
-Plug 'andviro/flake8-vim'
 Plug 'bling/vim-bufferline'
-Plug 'chrisbra/SudoEdit.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
-Plug 'Lokaltog/vim-easymotion'
+Plug 'easymotion/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-startify'
-Plug 'Rip-Rip/clang_complete'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'terryma/vim-expand-region'
 Plug 'thinca/vim-quickrun'
-Plug 'tomtom/tlib_vim'
 Plug 'Townk/vim-autoclose'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
@@ -35,23 +30,19 @@ Plug 'tpope/vim-rake'
 "Haml & Html
 Plug 'bitfyre/vim-indent-html'
 Plug 'hail2u/vim-css3-syntax'
-Plug 'tpope/vim-haml'
 
 "Python
 Plug 'klen/python-mode'
-Plug 'lambdalisue/vim-django-support'
 Plug 'vim-scripts/vim-python-virtualenv'
 Plug 'phillipberndt/python-imports.vim'
+Plug 'andviro/flake8-vim'
 
 " JavaScript
-Plug 'elzr/vim-json'
-Plug 'groenewege/vim-less'
 Plug 'pangloss/vim-javascript'
-Plug 'briancollins/vim-jst'
 Plug 'vim-scripts/node'
-Plug 'digitaltoad/vim-jade'
 Plug 'joestelmach/lint.vim'
 Plug 'godlygeek/tabular'
+Plug 'elzr/vim-json'
 
 "Clojure
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
@@ -63,14 +54,11 @@ Plug 'kovisoft/slimv'
 "Haskel
 Plug 'vim-scripts/haskell.vim'
 Plug 'bitc/vim-hdevtools'
-Plug 'vim-scripts/Conque-Shell'
 Plug 'vim-scripts/indenthaskell.vim'
 Plug 'Twinside/vim-hoogle'
 Plug 'vim-scripts/Haskell-Conceal'
 Plug 'Twinside/vim-haskellFold'
 Plug 'eagletmt/neco-ghc'
-Plug 'vim-scripts/Haskell-Highlight-Enhanced'
-Plug 'ujihisa/repl.vim'
 
 "Php
 Plug 'StanAngeloff/php.vim'
