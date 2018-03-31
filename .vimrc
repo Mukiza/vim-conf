@@ -239,7 +239,7 @@ function! <SID>StripTrailingWhitespace()
 endfunction
 
 autocmd FileType php,cpp,py,js,html,hs,sh,c,perl,ts  autocmd
-            \BufWritePre <buffer> :call <SID>StripTrailingWhitespace()
+            \ BufWritePre <buffer> :call <SID>StripTrailingWhitespace()
 
 
 " Toggle pastemode, doesn't indent
