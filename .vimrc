@@ -393,6 +393,7 @@ set tags=tags;/
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
