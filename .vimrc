@@ -162,10 +162,10 @@ vnoremap <F1> <nop>
 map Q <nop>
 
 " Buffers, preferred over tabs now with bufferline. Buggy?
-nnoremap gn :bNext<CR>
-nnoremap gp :bprevious<CR>
-nnoremap gd :bdelete<CR>
-nnoremap gf <C-^>
+nnoremap nb :bNext<CR>
+nnoremap pb :bprevious<CR>
+nnoremap xb :bdelete<CR>
+nnoremap fb <C-^>
 
 " Ctrl Left & Right move between buffers
 noremap <silent> <C-h> :bprev<CR>
