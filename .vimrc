@@ -457,4 +457,6 @@ nnoremap <Leader>gR :Gread<CR>
 nnoremap <Leader>gg :Git
 nnoremap <Leader>gd :Gdiff<CR>
 
+let g:ackprg = 'ag --vimgrep'
+
 call plug#end()
